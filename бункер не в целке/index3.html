@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЧИР СПОРТ — Челябинская область | Энергия, синхронность, победа!</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-contacts">
+                    <a href="tel:+73511234567">
+                        <span class="contact-icon"></span>
+             
+                    </a>
+                    <a href="mailto:info@chirsport74.ru">
+                        <span class="contact-icon"></span>
+     
+                    </a>
+                    <a href="#">
+                        <span class="contact-icon"></span>
+                        
+                    </a>
+                </div>
+                <div class="header-top-right">
+      
+              
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    
+                        <img class="svin" src="img/cropped-cropped-photo_2023-08-31_21-30-15 (1)-Photoroom.png">
+                        <div class="logo-icon">
+                            <path d="M50 5 L90 30 L90 70 L50 95 L10 70 L10 30 Z" stroke="#00D4FF" stroke-width="2" fill="none"/>
+                            <path d="M50 15 L80 35 L80 65 L50 85 L20 65 L20 35 Z" stroke="rgba(0,212,255,0.5)" stroke-width="1.5" fill="none"/>
+                            <ellipse cx="50" cy="28" rx="8" ry="10" fill="#00D4FF"/>
+                            <ellipse cx="38" cy="28" rx="6" ry="8" fill="#00D4FF"/>
+                            <ellipse cx="62" cy="28" rx="6" ry="8" fill="#00D4FF"/>
+                            <path d="M45 38 C45 38, 42 50, 40 55 C38 60, 35 70, 40 75 C45 80, 50 82, 55 78 C60 74, 58 65, 55 55 C52 45, 50 38, 50 38" fill="#fff"/>
+                            <path d="M40 55 C35 60, 28 68, 30 75 C32 82, 38 85, 42 82 C46 79, 48 72, 45 65 C42 58, 40 55, 40 55" fill="#fff"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="brand">ЧИР СПОРТ</span>
+                        <span class="tagline">Челябинская область</span>
+                    </div>
+                </a>
+                <nav class="nav-main" id="navMain">
+                    <a href="index.html" >Главная</a>
+                    <a href="index.html#programs">Направления</a>
+                    <a href="index2.html">Родителям</a>
+                  
+                    <a href="index.html#отзывы">Отзывы</a>
+                    <a href="index.html#gallery">Галерея</a>
+                   
+                    <a href="#информация">Информация</a>
+                </nav>
+                <div class="header-actions">
+                    <a href="#join" class="btn-cta"> Записаться</a>
+                    <div class="mobile-toggle" id="mobileToggle" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section section-gray" id="информация">
+        <div class="container">
+            <div class="section-header fade-up">
+           
+                <h2 class="section-title">Адреса и  <span class="accent">контакты</span></h2>
+                <p class="section-subtitle">    </p>
+            </div>
+            <div class="parents-grid">
+                <div class="parents-section fade-left">
+                    <h3>Адреса</h3>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>г. Челябинск, Ленинский район, ул. Масленникова 17А, ТК «Панорама»</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Расписание:
+                                - понедельник / среда / пятница
+                                Младшие дети (3-7 лет) - 18:00 - 19:00
+                                - понедельник (хип-хоп) / вторник / среда / четверг / пятница
+                                Девочки (8-11 лет) - 19:00 - 21:00
+                                Девушки (12+ лет) - 19:00 - 12:00
+                                Тренерский состав клуба: Юдина Елизавета Андреевна, Висимских Валерия Сергеевна.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>г. Челябинск, Ленинский район, ул. Чернышевского 3, 2 этаж</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Расписание:
+                                - понедельник / среда
+                                Малыши (3-5 лет) - 18:00-19:00
+                                - понедельник /среда / пятница
+                                Младшие дети (6-7 лет) - 18:00-19:00
+                                Девочки (8-10 лет) - 18:30-20:00
+                                Девушки (11-13 лет) - 19:30-21:00
+                                Юниорки (14-17 лет) - 19:30-21:00
+                                Тренерский состав клуба: Волкова Анастасия Андреевна, Захарова Анастасия Алексеевна, Самойлова Яна Руслановна (инструктор).
+                                </p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>Г. Челябинск, Тракторозаводский район, пр. Ленина 8, ДК ЧТЗ-Уралтрак</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Расписание: понедельник/среда/пятница
+                                Младшие дети (3-7 лет) - 18:15-19:00
+                                Девочки (8-11 лет) - 19:00-21:00
+                                Девушки (12-15 лет) -19:00-21:00
+                                Тренерский состав клуба: Кодолова Анна Александровна</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>Г. Челябинск, микрорайон Чурилово, Ул. 2-я Эльтонская, 23, ОЦ Академики.</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Расписание:
+                                Понедельник
+                                Младшие дети (5-6 лет) - 18:00-19:00
+                                Девочки (7-10 лет) - 19:00-20:30
+                                Девушки (11+ лет) - 19:00-20:30
+                                
+                                Вторники/четверг
+                                Малыши (3-4 года) - 17:10-17:50
+                                Младшие дети (5-6 лет) - 18:00-19:00
+                                
+                                Среда/пятница
+                                Девочки (7-10 лет) - 19:00-20:30
+                                Девушки (11+ лет) - 19:00-20:30
+                                Тренерский состав клуба : Кузнецова Мария Валерьевна , Шумилова Валерия Александровна.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>г. Челябинск, Металлургический район, ул. Черкасская 1</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Расписание: понедельник/среда/пятница
+                                Младшие дети (3-7 лет) с 18:00 до 19:00
+                                Девочки (8-11 лет) с 19:00 до 20:30
+                                Девушки (12+ лет) с 19:00 до 20:30
+                                Тренерский состав клуба: Никифорова Анастасия Павловна</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>с.Долгодеревенское, ул. Свердловская 15 РДК</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Расписание:
+                                Понедельник/среда:
+                                Младшие дети (3-7 лет) - 18:00-19:00
+                                Девочки (8-11 лет) - 19:00 - 21:00
+                                Девушки (12+) - 19:00 - 21:00
+                                Тренерский состав клуба: Мохина Мария Алексеевна</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>с.Долгодеревенское, ул 1 мая 120а/1, СОК ОЛИМП</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Расписание:
+                                Вторник/четверг:
+                                Младшие дети (3-7 лет) - 18:00-19:00
+                                Девочки (8-11 лет) - 19:00 - 21:00
+                                Девушки (12+) - 19:00 - 21:00
+                                Тренерский состав клуба: Мохина Мария Алексеевна</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>г.Челябинск, Курчатовский район, пр. Победы 348с1, ТК «Северо-Западный»</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Расписание :
+                                Вторник/ четверг/ пятница
+                                Малыши (3-4 года) с 17:00 - 17:45
+                                Младшие дети (5-6 лет) с 18:00 - 19:00
+                                
+                                Понедельник/вторник/среда
+                                Девочки (8-11 лет) с 18:00 - 21:00
+                                
+                                Понедельник/вторник/четверг/пятница
+                                Девушки ( 12+ лет ) с 18:00 - 21:00
+                                Тренерский состав клуба: Сурина Наталья Владимировна, Ковач Алина Зазавна, Сатюкова Полина Александровна</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>Г. Челябинск, Курчатовский район, Чввакуш, ул. Шагольская 6Б</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Расписание: понедельник/среда/пятница
+                                Младшие дети (3-7 лет) с 18:00 до 19:00
+                                Девочки (8-11 лет) с 19:00 до 21:00
+                                Девушки (12+ лет) с 19:00 до 20:30
+                                Тренерский состав клуба: Ишкова Милена Алексеевна, Евстигнеева Виталина Владимировна
+                                </p>
+                        </div>
+                    </div>
+                 
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>г. Челябинск, п. Новосинеглазово, Ул. Кирова, 4, 145 школа</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Расписание:
+                                Понедельник/ среда / пятница
+                                Младшие дети (3-7 лет) - 18:00-19:00
+                                Девочки (8-10 лет) - 19:00-20:30
+                                Девушки (11+ лет) - 19:00-20:30</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>г. Челябинск, п. Новосинеглазово , ДК Новосинеглазово</span>
+                            <span class="faq-arrow">▼</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Воскресенье:
+                                Младшие дети ( 3-7 лет) - 11:00-12:00
+                                Девочки (8-10 лет) - 12:00-14:00
+                                Девушки (11 + лет) - 12:00-14:00
+                                Тренерский состав клуба: Кузнецова Мария Валерьевна, Мурасина Алина Артёмовна</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="parents-section fade-right">
+                    <h3>Контакты</h3>
+                    <ul class="tips-list">
+                        <li class="tips-item">
+                          
+                            <div class="tips-content">
+                                <h5>Колл-центр</h5>
+                                <p>+7 (922) 750-31-80</p>
+                                <div class="tips-content">
+                                    <h5>Наталья Владимировна</h5>
+                                    <p>+7 (951) 115-96-75 </p>
+                                    <div class="tips-content">
+                                        <h5>Глеб Сергеевич</h5>
+                                        <p>+7 (908) 085-83-63</p>
+                            </div>
+                        </li>
+                       
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ 
+   <!-- FOOTER -->
+   <footer class="footer" id="contact">
+    <div class="footer-main">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <img class="svin" src="img/cropped-cropped-photo_2023-08-31_21-30-15 (1)-Photoroom.png">
+                                <path d="M50 5 L90 30 L90 70 L50 95 L10 70 L10 30 Z" stroke="#00D4FF" stroke-width="2" fill="none"/>
+                                <path d="M50 15 L80 35 L80 65 L50 85 L20 65 L20 35 Z" stroke="rgba(0,212,255,0.5)" stroke-width="1.5" fill="none"/>
+                                <ellipse cx="50" cy="28" rx="8" ry="10" fill="#00D4FF"/>
+                                <ellipse cx="38" cy="28" rx="6" ry="8" fill="#00D4FF"/>
+                                <ellipse cx="62" cy="28" rx="6" ry="8" fill="#00D4FF"/>
+                                <path d="M45 38 C45 38, 42 50, 40 55 C38 60, 35 70, 40 75 C45 80, 50 82, 55 78 C60 74, 58 65, 55 55 C52 45, 50 38, 50 38" fill="#fff"/>
+                                <path d="M40 55 C35 60, 28 68, 30 75 C32 82, 38 85, 42 82 C46 79, 48 72, 45 65 C42 58, 40 55, 40 55" fill="#fff"/>
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <span class="brand">ЧИР СПОРТ</span>
+                            <span class="tagline">Челябинская область</span>
+                        </div>
+                    </a>
+                    <p>Официальная спортивная организация по чир спорту в Челябинской области. Развиваем чирлидинг с 2002 года. Член Федерации чир спорта России.</p>
+                    <div class="footer-social">
+                        <a href="#" title="ВКонтакте">VK</a>
+                        <a href="#" title="Telegram">TG</a>
+                        <a href="#" title="YouTube">MAX</a>
+                       
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 id="Адреса">Адреса</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">ЧВВАКУШ, ул. Шагольская, 1-й квартал, 6Б</a></li>
+                        <li><a href="#programs">ул. Комсомольский проспект, 34Д, СК "Мегаспорт"</a></li>
+                        <li><a href="#schedule">ул. Проспект победы 348/1, «ТК Северо-Западный»</a></li>
+                        <li><a href="#coaches">ул. Масленникова, д. 17А, ТК "Панорама"</a></li>
+                        <li><a href="#competitions">ул. Агалакова, д. 19</a></li>
+                     
+                       
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>ㅤ</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">ЧУРИЛОВО, ул. Сергея Герасимова, д. 21</a></li>
+                        <li><a href="#">ул. Проспект Ленина, д. 8, ДК ЧТЗ</a></li>
+                        <li><a href="#">п. Новосинеглазово, ул. Кирова, д. 4</a></li>
+                        <li><a href="#">ул. Свердловская, д.15, РДК</a></li>
+                        <li><a href="#">ул. Черкасская, д. 1, "Метар-Спорт"</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                   
+                    
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon">📞</div>
+                        <div class="footer-contact-text">
+                            <strong>Телефон</strong>
+                            <span><a href="tel:+73511234567">+7 (351) 123-45-67</a></span>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon">✉️</div>
+                        <div class="footer-contact-text">
+                            <strong>Email</strong>
+                            <span><a href="mailto:info@chirsport74.ru">info@chirsport74.ru</a></span>
+                        </div>
+                    </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer-bottom">
+            <p>© 2026 ЧИР СПОРТ — Челябинская область. Все права защищены.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Пользовательское соглашение</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- SCROLL TO TOP -->
+   <button class="scroll-top" id="scrollTop" onclick="scrollToTop()">↑</button>
+
+   <!-- MODAL -->
+   <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+       <div class="modal">
+           <button class="modal-close" onclick="closeModalBtn()">✕</button>
+           <div class="modal-icon">✅</div>
+           <h3 id="modalTitle">Заявка отправлена!</h3>
+           <p id="modalText">Спасибо за вашу заявку! Наш менеджер свяжется с вами в течение 30 минут для подтверждения записи на пробное занятие.</p>
+       </div>
+   </div>
+
+   <script>
+       // Header scroll effect
+       window.addEventListener('scroll', function() {
+           const header = document.getElementById('header');
+           const scrollTop = document.getElementById('scrollTop');
+           
+           if (window.scrollY > 100) {
+               header.classList.add('scrolled');
+           } else {
+               header.classList.remove('scrolled');
+           }
+
+           if (window.scrollY > 500) {
+               scrollTop.classList.add('visible');
+           } else {
+               scrollTop.classList.remove('visible');
+           }
+       });
+
+       // Mobile menu toggle
+       function toggleMenu() {
+           const nav = document.getElementById('navMain');
+           nav.classList.toggle('active');
+       }
+
+       // Close mobile menu on link click
+       document.querySelectorAll('.nav-main a').forEach(link => {
+           link.addEventListener('click', () => {
+               document.getElementById('navMain').classList.remove('active');
+           });
+       });
+
+       // Smooth scroll
+       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+           anchor.addEventListener('click', function(e) {
+               e.preventDefault();
+               const target = document.querySelector(this.getAttribute('href'));
+               if (target) {
+                   const offset = 120;
+                   const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                   window.scrollTo({ top, behavior: 'smooth' });
+               }
+           });
+       });
+
+       // Scroll to top
+       function scrollToTop() {
+           window.scrollTo({ top: 0, behavior: 'smooth' });
+       }
+
+       // FAQ toggle
+       function toggleFaq(item) {
+           const isActive = item.classList.contains('active');
+           document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('active'));
+           if (!isActive) {
+               item.classList.add('active');
+           }
+       }
+
+       // Form submission
+       function handleRegister(e) {
+           e.preventDefault();
+           document.getElementById('modalTitle').textContent = 'Заявка отправлена!';
+           document.getElementById('modalText').textContent = 'Спасибо за вашу заявку! Наш менеджер свяжется с вами в течение 30 минут для подтверждения записи на пробное занятие.';
+           document.getElementById('modalOverlay').classList.add('active');
+           e.target.reset();
+       }
+
+       // Download schedule
+       function downloadSchedule() {
+           document.getElementById('modalTitle').textContent = 'Скачивание расписания';
+           document.getElementById('modalText').textContent = 'Расписание в формате PDF будет загружено в ближайшее время. Для получения актуального расписания вы также можете позвонить нам по телефону +7 (351) 123-45-67.';
+           document.getElementById('modalOverlay').classList.add('active');
+       }
+
+       // Gallery modal
+       function showModal() {
+           document.getElementById('modalTitle').textContent = 'Фото и видео галерея';
+           document.getElementById('modalText').textContent = 'Полная медиатека с фото и видео доступна в наших социальных сетях: ВКонтакте, Telegram, YouTube. Подписывайтесь, чтобы не пропустить новые публикации!';
+           document.getElementById('modalOverlay').classList.add('active');
+       }
+
+       // Close modal
+       function closeModal(e) {
+           if (e.target === document.getElementById('modalOverlay')) {
+               document.getElementById('modalOverlay').classList.remove('active');
+           }
+       }
+
+       function closeModalBtn() {
+           document.getElementById('modalOverlay').classList.remove('active');
+       }
+
+       // Search toggle
+       function toggleSearch() {
+           const query = prompt('🔍 Поиск по сайту:');
+           if (query) {
+               document.getElementById('modalTitle').textContent = 'Поиск';
+               document.getElementById('modalText').textContent = 'По запросу "' + query + '" найдено 0 результатов. Попробуйте изменить запрос или свяжитесь с нами для получения информации.';
+               document.getElementById('modalOverlay').classList.add('active');
+           }
+       }
+
+       // Intersection Observer for animations
+       const observerOptions = {
+           threshold: 0.1,
+           rootMargin: '0px 0px -50px 0px'
+       };
+
+       const observer = new IntersectionObserver(function(entries) {
+           entries.forEach(entry => {
+               if (entry.isIntersecting) {
+                   entry.target.classList.add('visible');
+                   observer.unobserve(entry.target);
+               }
+           });
+       }, observerOptions);
+
+       document.querySelectorAll('.fade-up, .fade-left, .fade-right').forEach(el => {
+           observer.observe(el);
+       });
+
+       // Active nav link on scroll
+       const sections = document.querySelectorAll('section[id]');
+       window.addEventListener('scroll', function() {
+           let current = '';
+           sections.forEach(section => {
+               const sectionTop = section.offsetTop - 200;
+               if (window.scrollY >= sectionTop) {
+                   current = section.getAttribute('id');
+               }
+           });
+           document.querySelectorAll('.nav-main a').forEach(link => {
+               link.classList.remove('active');
+               if (link.getAttribute('href') === '#' + current) {
+                   link.classList.add('active');
+               }
+           });
+       });
+
+       // Keyboard accessibility
+       document.addEventListener('keydown', function(e) {
+           if (e.key === 'Escape') {
+               document.getElementById('modalOverlay').classList.remove('active');
+               document.getElementById('navMain').classList.remove('active');
+           }
+       });
+   </script>
+</body>
+</html>
